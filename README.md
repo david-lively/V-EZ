@@ -25,6 +25,8 @@ V-EZ is not hardware vendor specific and should work on non-AMD hardware.
 ## Building V-EZ
 
 - Run cmake to generate Visual Studio solution files or Linux make files.  No specific settings need to be set.
+- - For 64-bit Visual Studio projects, use
+`cmake -G “Visual Studio 15 2017 Win64”`
 
 - Pull down submodules
 
